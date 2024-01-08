@@ -1,6 +1,6 @@
 import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
-import { pageFixture } from '../../hooks/pageFixture';
+import { pageFixture } from '../hooks/pageFixture';
 
 setDefaultTimeout(60 * 1000 * 2);
 const baseURL = 'https://passport.yandex.ru/auth';
