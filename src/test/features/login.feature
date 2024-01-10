@@ -36,6 +36,6 @@ Scenario: Login via telephone with invalid number format
 Scenario: Login via telephone with valid number
     Given I am on the Yandex login page
     When I click the "Телефон" button
-    And I fill in the "Беларусь" phone field with "+375 (33) 324-07-59"
+    And I fill in the "Беларусь" phone field with "+375 (29) 542-19-43"
     And I click the "Войти" button
     Then I see the message "Введите код"
